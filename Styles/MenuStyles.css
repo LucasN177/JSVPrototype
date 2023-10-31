@@ -1,0 +1,28 @@
+/* Menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+ul.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+ul.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-width: 4px;
+}
+
+ul.menu li:hover .submenu {
+    display: block;
+}
+
+.Navigationbar{
+    background-color: lightgray;
+    padding: 0%;
+}
